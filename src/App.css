@@ -1,0 +1,368 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: arial;
+}
+header{
+display:  flex;
+
+position: fixed ;
+top:0;
+width:75%;
+height:80px;
+justify-content: space-between;
+padding: 0 190px;
+border-bottom:1px solid lightgray;
+
+align-items: center;
+background-color: white;
+
+}
+.nav-menu{
+   display: flex;
+   list-style: none;
+   width:200px;
+
+   font-size:14px;
+ 
+}
+.nav-item{
+    padding:0 10px;
+
+}
+.nav-item a{
+    text-decoration: none;
+  color:#ABABAB
+}
+.active-link{color:#00CCB1 !important}
+
+main{
+    margin-top:100px;
+    width:100%;
+    margin: auto;
+    margin-top:150px;
+    
+}
+.experience-section{
+ width:1000px;
+ margin: auto;
+
+
+}
+.experience-title,.experience-description{
+width: 1000px;
+margin: auto;
+display: flex;
+
+
+
+}
+.experience-title{
+    flex-flow: column wrap;
+    align-items: center;}
+    
+.section-title{
+color:#00CCB1 ;
+font-size:34px;
+font-weight: 200;
+
+
+}
+.text-description{
+    width:470px;
+   padding: 10px;
+   color:#919191;
+   line-height: 2em;
+  
+   
+}
+
+.grid{
+
+    margin: auto;
+    display: flex;
+ 
+justify-content: space-between;
+margin-top:50px;
+
+}
+
+.patient-grid, .doctor-grid{
+width:450px;
+height:370px;
+border-radius: 10px;
+padding: 20px 0 0 40px;
+position: relative;
+overflow: hidden;
+z-index: -5;
+
+}
+.patient-grid{background: #00CCB1}
+.doctor-grid{background: #3D83DF}
+.category{
+    font-size:14px;
+    color:#eeeded;
+    font-weight: 100;
+   
+    margin:0;
+ 
+
+}
+.pane-title{
+    color:white;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0 100px 0 0;
+   
+    line-height: 1.5em;
+   
+}
+.row{
+height:260px;
+width:100%;
+position: relative;
+margin-top:20px;
+
+
+}
+.row-img{
+position: absolute;
+width:380px;
+height:260px;
+right:-130px;
+
+}
+.coutry-list{
+    width:200px;
+    height:40px;
+    border:0;
+    border-radius: 5px;
+    font-family: arial;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding-left:20px;
+    font-weight: bold
+}
+
+.experience-info{
+
+    width:270px;
+   
+
+  
+}
+.text-blue{
+
+    color:#00CCB1;
+    font-size: 24px;
+    font-weight: 100
+}
+.partner-list{
+    display: flex;
+  
+    width:1000px;
+    justify-content: space-between;
+    margin: 30px 0 10px 0;
+    align-items: center;
+   
+
+}
+.partner-menu{
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    
+   
+
+
+
+}
+.partner-item{
+
+    width:150px;
+    padding: 15px 0
+
+
+}
+
+.partner-item-name {
+
+    color:#ABABAB;
+text-decoration: none;
+font-weight: bold;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+
+
+}
+.partner-item-name img{
+
+    margin: 0 7px;
+}
+.partner-item-name:hover{
+
+    color:#00BFA5
+}
+.acheivment-section{
+    width:100%;
+   
+    background: #DFF8F6;
+    display: flex;
+    justify-content: center;
+    height:570px;
+   
+}
+
+.left-grid{
+width: 420px;
+padding-top:50px;
+
+}
+.right-grid{
+display: flex;
+width:550px;
+flex-flow: row  wrap;
+justify-content: space-around;
+align-items: center
+
+
+
+}
+.offset-grid{margin-top:30px}
+
+
+.acheivement-item{
+    width:190px;
+    
+    height:200px;
+    padding: 20px;
+    text-align: center;
+
+    background: white;
+    margin: 20px 0;
+    border-radius: 5px;
+
+
+}
+.section-title{
+line-height:1em;
+margin: 0;
+
+}
+.acheivement-info, .acheivement-item-desc,.section-city-text{
+
+    font-size:14px;
+    color:#747474;
+    line-height: 1.5em;
+
+
+}
+.acheivement-item-title{
+
+    color:#00BFA5;
+    font-size: 22px;
+    font-weight: 200
+}
+
+.city-section{
+width:80%;
+text-align: center;
+padding: 100px 0 0 0 ;
+margin: auto;
+
+
+}
+
+.section-city-text{
+    text-align: center;
+width:450px;
+margin: auto;
+padding:0;
+
+
+}
+.city-group{
+margin : 100px 0;
+display: flex;
+width:1100px;
+flex-flow: row wrap;
+justify-content: center;
+}
+.city{
+width:310px;
+height:350px;
+border: 1px solid rgb(245, 245, 245);
+border-radius: 8px;
+margin:10px;
+
+}
+.city-img{
+width:310;
+height:280;
+
+}
+.city-legend{
+
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    padding : 0 17px;
+   
+
+}
+.city-name{
+    color:#747474;
+    font-weight: 100;
+    text-transform: capitalize;
+
+
+}
+.city-link{
+text-decoration: none;
+    color:white;
+    background: #3D83DF;
+    padding:10px 20px;
+    border-radius: 5px;
+    font-size: 10px;
+text-transform: uppercase;
+font-weight: bold
+
+
+
+}
+.city-link:hover{
+    background: #1662C6;
+}
+
+.city:hover{
+
+    box-shadow: 0 4px 15px 8px rgba(0, 0, 0, 0.1)
+}
+
+footer{
+
+    border-top: 1px solid rgb(225, 221, 221);
+    text-align: center;
+    font-size:12px;
+    color:rgb(163, 162, 162);
+    line-height: 1.5em;
+}
+footer a {text-decoration: none}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
